@@ -37,3 +37,8 @@ DCM Contract: https://goerli.voyager.online/contract/0x01483547e97fbd070c3d17a80
 
 Escrow Contract: https://goerli.voyager.online/contract/0x0703314998148f32a707df2c1eebf5649af108ecb3ac7f360084805026de26fa#writeContract
 
+****** ASPECT NFT APIs ********
+
+We would be using the ASPECT APIs to fetch the NFTs for a contributor. There would be NFTs native to the user as well as NFTs issued by the platform, which would act as the proof of work for the contributor.
+
+ERC721 Contract: https://goerli.voyager.online/contract/0x07ed9ca271a5537c68c6c8a00c0a878ae972c6bc8e714e1cbf0b1358ee33d986#writeContract
