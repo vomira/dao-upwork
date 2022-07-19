@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import mockData from "../../assets/sample-response.json";
 import Bear1 from "../../assets/img/bear-1.jpg";
 import "./ContributorProfile.css";
-import { Divider, Button, Chip } from "@mui/material";
+import { Divider, Button, Chip, Alert, AlertTitle } from "@mui/material";
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import InfoIcon from '@mui/icons-material/Info';
@@ -21,6 +21,7 @@ import { compileCalldata } from "starknet/dist/utils/stark";
 
 export default function ContributorProfile() {
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [showAlert, setShowAlert] = useState(false);
 
     const openModal = () => {
         setIsModalOpen(true);
@@ -106,6 +107,7 @@ export default function ContributorProfile() {
             { blockIdentifier: "pending" }
         ).then((res) => {
             console.log("result from calling contributor", res);
+            setShowAlert(true);
             return res;
         }).catch(() => {
         console.log("catch block reached");
@@ -131,7 +133,11 @@ export default function ContributorProfile() {
                     contractAddress: mainContractAddress,
                     entrypoint: "createContributor_283dcdbd",
                     calldata: compileCalldata([["1433625970"], ["20260866899341093549884269938"], ["547425990949892892901900024520666473"], ["7456097783971854640"], 150,0]),
-                }).then((res) => console.log(res)).catch((err) => console.log(err));
+                }).then((res) => {
+                    console.log(res);
+                    closeModal();
+                    setShowAlert(true);
+                }).catch((err) => console.log(err));
     
                 // return erc20Contract.createEscrow(
                 //     650000000000000, 123, "237007096079816496001586", "237043989567963915104818", BigInt(address).toString(), BigInt(payerAddress).toString()
@@ -143,7 +149,12 @@ export default function ContributorProfile() {
 
     return (
         <Layout>
+                        { showAlert && <Alert severity="success">
+  <AlertTitle>Contributor invited!</AlertTitle>
+  We're notifying the contributor now — <strong>stay tuned!</strong>
+</Alert>}
             <div className="profile-container">
+
                 <div className="profile-column-1">
                     <img src={Bear1} className="profile-picture"></img>
                     <div className="profile-description header">
