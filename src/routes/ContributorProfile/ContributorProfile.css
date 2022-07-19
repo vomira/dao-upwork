@@ -5,6 +5,13 @@
     margin: 120px 30px 20px 200px;
 }
 
+.profile-intro {
+    background-color: white;
+    border: 1px solid #F5F5F5;
+    border-radius: 5px;
+
+}
+
 .profile-column-1 {
     display: flex;
     flex-direction: column;
@@ -45,13 +52,21 @@
 }
 
 .profile-abstract {
-    padding: 10px;
+    padding: 20px;
 }
 
 .profile-attributes {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin: 15px;
+}
+
+.attribute {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .ReactModal__Content {
@@ -62,7 +77,8 @@
 .close-button {
     width: 20px;
     height: 20px;
-    background-color: #F5F5F5;
+    background-color: transparent;
+    border: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,6 +120,7 @@
 
 .modal-title {
     padding-left: 20px;
+    margin-top: 20px;
 }
 
 .submit-button {
@@ -115,4 +132,21 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.profile-title {
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.profile-role {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.skill-chip {
+    margin: 2px;
 }

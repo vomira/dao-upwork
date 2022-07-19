@@ -15,14 +15,14 @@ export default function Login({userRole, handleLogin, isLoggedIn}) {
     handleLogin(newValue);
   }
 
-//    // silently attempt to connect with a pre-authorized wallet
-//    useEffect(() => {
-//     connect({ showList: false }).then(wallet => {
-//         wallet
-//             ?.enable({ showModal: false })
-//             .then(() => handleLoginChange(!!wallet?.isConnected));
-//     });
-// }, []);
+   // silently attempt to connect with a pre-authorized wallet
+   useEffect(() => {
+    connect({ showList: false }).then(wallet => {
+        wallet
+            ?.enable({ showModal: false })
+            .then(() => handleLoginChange(!!wallet?.isConnected));
+    });
+}, []);
 
 const checkForExistingWallet = () => {
   connect({ showList: false }).then(wallet => {
