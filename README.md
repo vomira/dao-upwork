@@ -23,7 +23,9 @@ Contracts:
 * Cairo contracts
 
 - Contract Repo
+
 Contract Repository consists of:
+
 * Warped Cairo Contracts (DCM and Escrow)
 * Base Solidity Contract
 * Contract ABIs and Compiled Contracts(json)
