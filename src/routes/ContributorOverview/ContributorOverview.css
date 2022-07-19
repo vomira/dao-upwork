@@ -1,15 +1,28 @@
 .contributor-container {
     width: 100%;
     height: 100%;
+    margin: 20px;
 }
+
 
 .filter-button-container {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.filter-button-container > button {
+    margin: 10px;
 }
 
 .contributor-overlay {
     width: 100%;
+}
+
+.contributor-overlay-title {
+    
+    padding: 15px;
 }
 
 .contributor-card-container {
@@ -20,4 +33,9 @@
 
 .contributor-card {
     width: 33%;
+    margin: 10px;
+}
+
+.search-bar {
+    margin: 30px;
 }

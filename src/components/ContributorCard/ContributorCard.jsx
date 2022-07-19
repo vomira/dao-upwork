@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export default function ContributorCard(props) {
     return (
-        <Link to={'/contributor/' + props.user} className="contributor-card">
+        <Link to={'/contributor/' + props.user}  className="contributor-card">
         <Card>
             <CardContent className="contributor-card-content"> 
                 <img src={Bear1} alt="" />

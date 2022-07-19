@@ -15,7 +15,9 @@ export default function ContributorOverview(props) {
         <div>
         <h2>Explore Contributors</h2>
 
+<div className="search-bar">
        <SearchBar></SearchBar>
+       </div>
        <div className="filter-button-container">
         <Button variant='contained'>UI/UX Designer</Button>
         <Button variant='text'>Developer</Button>
@@ -27,7 +29,7 @@ export default function ContributorOverview(props) {
        </div>
 
       <Paper elevation={2} className="contributor-overlay">
-        <h2>All Contributors</h2>
+        <h2 className="contributor-overlay-title">All Contributors</h2>
         <div className="contributor-card-container">
         {mockData.map((contributor, index) => {
             return <ContributorCard className="contributor-card" user={contributor.user} name={contributor.name} role={contributor.role} description={contributor.description} linkedIn={contributor.linkedIn} github={contributor.github} ratePerHour={contributor.avgRatePerHour} numOfProjects={contributor.numProjects} key={index}></ContributorCard>
