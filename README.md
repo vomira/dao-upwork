@@ -34,5 +34,6 @@ Contract Repository consists of:
 ******** Contract Information *********
 
 DCM Contract: https://goerli.voyager.online/contract/0x01483547e97fbd070c3d17a802db033017e3b5b13017f23da9e2fb21559077b7#transactions
+
 Escrow Contract: https://goerli.voyager.online/contract/0x0703314998148f32a707df2c1eebf5649af108ecb3ac7f360084805026de26fa#writeContract
 
