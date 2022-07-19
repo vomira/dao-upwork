@@ -53,3 +53,66 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+.ReactModal__Content {
+    display: flex;
+    flex-direction: column;
+}
+
+.close-button {
+    width: 20px;
+    height: 20px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-modal-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.form-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.form-child-label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.form-child-label > span {
+    padding: 5px;
+    margin: 5px;
+}
+
+.modal-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.modal-title {
+    padding-left: 20px;
+}
+
+.submit-button {
+    padding-left: 20px;
+}
+
+.submit-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
