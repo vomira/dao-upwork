@@ -1,0 +1,190 @@
+[
+    {
+        "members": [
+            {
+                "name": "low",
+                "offset": 0,
+                "type": "felt"
+            },
+            {
+                "name": "high",
+                "offset": 1,
+                "type": "felt"
+            }
+        ],
+        "name": "Uint256",
+        "size": 2,
+        "type": "struct"
+    },
+    {
+        "inputs": [
+            {
+                "name": "__warp_usrid32_contract_addr",
+                "type": "felt"
+            }
+        ],
+        "name": "constructor",
+        "outputs": [],
+        "type": "constructor"
+    },
+    {
+        "inputs": [
+            {
+                "name": "__warp_usrid33__name_len",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_usrid33__name",
+                "type": "felt*"
+            },
+            {
+                "name": "__warp_usrid34__description_len",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_usrid34__description",
+                "type": "felt*"
+            },
+            {
+                "name": "__warp_usrid35__linkedIn_len",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_usrid35__linkedIn",
+                "type": "felt*"
+            },
+            {
+                "name": "__warp_usrid36__github_len",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_usrid36__github",
+                "type": "felt*"
+            },
+            {
+                "name": "__warp_usrid37__averageRatePerHour",
+                "type": "Uint256"
+            }
+        ],
+        "name": "createContributor_283dcdbd",
+        "outputs": [
+            {
+                "name": "__warp_usrid38_",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "__warp_usrid48_contributor",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_usrid49__name_len",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_usrid49__name",
+                "type": "felt*"
+            },
+            {
+                "name": "__warp_usrid50__description_len",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_usrid50__description",
+                "type": "felt*"
+            },
+            {
+                "name": "__warp_usrid51__maxCompensation",
+                "type": "Uint256"
+            },
+            {
+                "name": "__warp_usrid52__startDate",
+                "type": "Uint256"
+            },
+            {
+                "name": "__warp_usrid53__endDate",
+                "type": "Uint256"
+            }
+        ],
+        "name": "inviteContributor_a94e1d7e",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "__warp_usrid56_projectId",
+                "type": "Uint256"
+            }
+        ],
+        "name": "approveProject_fc69d836",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "__warp_usrid58__contributor",
+                "type": "felt"
+            }
+        ],
+        "name": "getAllContributors_bcf74e3c",
+        "outputs": [
+            {
+                "name": "__warp_usrid59__len",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_usrid59_",
+                "type": "felt*"
+            },
+            {
+                "name": "__warp_usrid60__len",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_usrid60_",
+                "type": "felt*"
+            },
+            {
+                "name": "__warp_usrid61_",
+                "type": "Uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "__warp_usrid62_projectId",
+                "type": "Uint256"
+            }
+        ],
+        "name": "getProjectFromId_e84447d0",
+        "outputs": [
+            {
+                "name": "__warp_usrid63_",
+                "type": "Uint256"
+            },
+            {
+                "name": "__warp_usrid64_",
+                "type": "Uint256"
+            },
+            {
+                "name": "__warp_usrid65_",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_usrid66_",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]

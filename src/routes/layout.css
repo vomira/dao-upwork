@@ -1,0 +1,19 @@
+.layout-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    background-color: #F5F5F5;
+}
+

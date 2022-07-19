@@ -1,0 +1,31 @@
+[       {
+            "user": "123",
+            "name": "Bender McBendyFace",
+            "role": "UX Designer",
+            "description": "I'm great at building dapps and stuff blablablablbalbalbalblablablabla",
+            "linkedin": "https://www.linkedin.com",
+            "github": "https://www.github.com",
+            "avgRatePerHour": 9.99,
+            "numProjects": 3000
+        }, 
+        {
+            "user": "456",
+            "name": "Scott Duckerson",
+            "role": "Content Designer",
+            "description": "I'm great at building dapps and stuff blablablablbalbalbalblablablabla",
+            "linkedin": "https://www.linkedin.com",
+            "github": "https://www.github.com",
+            "avgRatePerHour": 9.99,
+            "numProjects": 3000
+        }, 
+        {
+            "user": "789",
+            "name": "Mandy Cauliflower",
+            "role": "Software Engineer",
+            "description": "I'm great at building dapps and stuff blablablablbalbalbalblablablabla",
+            "linkedin": "https://www.linkedin.com",
+            "github": "https://www.github.com",
+            "avgRatePerHour": 9.99,
+            "numProjects": 3000
+        }
+    ]

@@ -1,0 +1,29 @@
+.nav-bar-container {
+    height: 100%;
+    max-width: 10vw;
+    background-color: #051226;
+}
+
+.nav-icon-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    color: #F6F9FD;
+}
+
+.item-text {
+    color: #F6F9FD;
+}
+
+a {
+    color: #F6F9FD;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#F6F9FD; 
+    text-decoration:none; 
+    cursor:pointer;  
+}

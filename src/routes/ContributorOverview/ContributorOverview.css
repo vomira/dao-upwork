@@ -1,0 +1,23 @@
+.contributor-container {
+    width: 100%;
+    height: 100%;
+}
+
+.filter-button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.contributor-overlay {
+    width: 100%;
+}
+
+.contributor-card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contributor-card {
+    width: 33%;
+}
